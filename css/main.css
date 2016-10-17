@@ -28,7 +28,8 @@
 }
 body {
   padding-top: 80px;
-  color: #34495e;
+  /*color: #34495e;*/
+  color: #000;
   background: #f5f5f5;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -284,7 +285,7 @@ body > section {
   background-color: #bdc3c7;
 }
 .wet-asphalt {
-  background-color: #34495e;
+  background-color: #4f7aa5;
 }
 .wet-asphalt a:not(.btn) {
   color: #bdc3c7;
@@ -566,13 +567,18 @@ body > section {
   -o-transition: none;
   transition: none;
 }
+#pricing-table {
+  margin-top: 20px;
+}
 #pricing-table .plan {
   border-radius: 4px;
   list-style: none;
   margin: 0 0 20px;
-  background: #3498db;
+  /*background: #3498db;*/
+  background: #e62117;
   text-align: center;
-  padding: 30px 0;
+  /*padding: 30px 0;*/
+  padding: 0px 0;
 }
 #pricing-table .plan li {
   padding: 5px 0;
@@ -598,9 +604,10 @@ body > section {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   font-size: 24px;
-  border-radius: 100%;
+  /*border-radius: 100%;
   width: 70px;
-  height: 70px;
+  height: 70px;*/
+  width: 100%;
 }
 #pricing-table .plan li.plan-price > div sup {
   font-size: 10px;
@@ -628,7 +635,8 @@ body > section {
 #meet-the-team .designation {
   margin-top: 5px;
   display: block;
-  font-size: 13px;
+  /*font-size: 13px;*/
+  font-size: 17px;
 }
 .img-thumbnail {
   border: 0;
@@ -725,7 +733,8 @@ ul.tag-cloud li {
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 4px;
-  color: #bdc3c7;
+  /*color: #bdc3c7;*/
+  color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -880,7 +889,8 @@ ul.tag-cloud li {
   display: inline-block;
 }
 #bottom {
-  color: #bdc3c7;
+  /*color: #bdc3c7;*/
+  color: fff;
 }
 #bottom h4 {
   margin-top: 0;
@@ -1055,6 +1065,9 @@ ul.gallery li {
   margin: 0 4px 4px 0;
   float: left;
 }
+ul.faq h4{
+  padding-top: 15px;
+}
 ul.faq {
   list-style: none;
   margin: 0;
@@ -1086,4 +1099,23 @@ ul.faq li > div h3 {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 150px;
+}
+
+
+.predlozhenie {
+  /*background-image: url(../images/back-women.png);
+  background-repeat: no-repeat;*/
+  background-color: #fff;
+}
+
+.indent {
+  text-indent: 1.5em;
+}
+.marker {
+  color: #e62117;
+  font-size: 37px;
+}
+.big-btn {
+  font-size: 29px;
+  margin-bottom: 50px;
 }
